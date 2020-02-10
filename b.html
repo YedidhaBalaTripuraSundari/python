@@ -1,0 +1,45 @@
+<head>
+<body>
+<!DOCTYPE html><html id=spa-html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,minimal-ui"><link rel=icon type=image/ico href=./favicon.ico><script src=./config.js></script><script src=./pluginVersions.js></script><script src=./handleResources.js></script><title>Chamaileon</title><script>(function (w, d, s, l, i) {
+				w[l] = w[l] || []; w[l].push({
+					'gtm.start':
+					new Date().getTime(), event: 'gtm.js'
+				}); var f = d.getElementsByTagName(s)[0],
+					j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+					'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j,f);
+			})(window, document, 'script', 'dataLayer', 'GTM-THZSD53');</script><link href=/css/app.6bc75382.css rel=preload as=style><link href=/css/chunk-vendors.fb164444.css rel=preload as=style><link href=/js/app.59ff094a.js rel=preload as=script><link href=/js/chunk-vendors.d7d090a5.js rel=preload as=script><link href=/css/chunk-vendors.fb164444.css rel=stylesheet><link href=/css/app.6bc75382.css rel=stylesheet></head><body><iframe id=cookie-iframe frameborder=0></iframe><div id=app></div><style>#mega-editor-wrapper,
+		#mega-preview-wrapper {
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100vh;
+			margin-top: 100vh;
+			transition: all 0.3s ease;
+			background-color: #efefef;
+			z-index: 3;
+		}
+
+
+		#mega-editor-wrapper iframe,
+		#mega-preview-wrapper iframe {
+			width: 100%;
+			height: 100%;
+			border: 0;
+		}
+
+		#cookie-iframe {
+			display: none;
+		}</style><div id=mega-editor-wrapper></div><div id=mega-preview-wrapper></div><script>(async function () {
+			const packageVersion = "1.1.94";
+
+			const response = await fetch("/package.json");
+			const remotePackage = await response.json();
+			const remoteVersion = remotePackage.version;
+
+			if (packageVersion !== remoteVersion) {
+				location.reload(true);
+			}
+		}());</script><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-THZSD53" height=0 width=0 style=display:none;visibility:hidden></iframe></noscript><script src=/js/chunk-vendors.d7d090a5.js></script><script src=/js/app.59ff094a.js></script></body></html>
+</body>
+</head>
